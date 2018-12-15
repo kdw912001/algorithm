@@ -6,9 +6,9 @@ public class Q14Q15 {
 
 	private static Scanner sc = new Scanner(System.in); 
 	public void q14() {
-		System.out.println("");
-		System.out.print(" "); 
-		 
+		System.out.println("사각형을 출력하는 프로그램입니다");
+		System.out.print("단 입력 : "); 
+		  
 		int dan = sc.nextInt();
 		for(int i=0;i<dan;i++) {
 			for(int j=0; j<dan;j++) {
@@ -58,7 +58,7 @@ public class Q14Q15 {
 	public static void main(String[] args) {
 		/*Second se = new Second();
 		se.q14();*/
-		System.out.print(" ");
+		System.out.print("단 입력 : ");
 		int n = sc.nextInt();
 		triangleLB(n);
 		triangleLU(n);
